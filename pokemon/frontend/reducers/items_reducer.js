@@ -8,8 +8,8 @@ export const itemsReducer = (state = {}, action) => {
     case RECEIVE_POKEMON:
       action.payload.items.forEach((item) => {
         newState[item.id] = item;
-      })
-      return newState;
+      });
+      return _.merge({},state, newState);
     default:
       return state;
   }

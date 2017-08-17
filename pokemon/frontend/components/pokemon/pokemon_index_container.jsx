@@ -8,7 +8,6 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = dispatch => {
-  // debugger
   return {
     requestAllPokemon: () => dispatch(requestAllPokemon())
   };

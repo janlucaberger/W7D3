@@ -108,12 +108,16 @@
   border: 3px solid black;
   width: 250px;
   margin-left: 40px;
+  float: left;
+  min-height: 500px;
+  height: 700px;
+  overflow: scroll;
 }
 .pokemon-index-item{
   display: flex;
   height: 60px;
   align-items: center;
-  width: 250px;
+  width: 100%;
   border-bottom: 1px solid gray;
 }
 
@@ -127,4 +131,18 @@
 }
 .pokemon-index-item-text{
   padding: 15px;
+}
+
+.pokemon-detail-container{
+  border: 3px solid black;
+  padding: 40px;
+  margin-left: 40px;
+  float: left;
+}
+
+.poke-item-container{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
 }
